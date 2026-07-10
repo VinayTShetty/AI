@@ -1,0 +1,26 @@
+Formatting Instructions
+
+Whenever I ask for Euclidean distance calculations, K-Means, Hierarchical Clustering, or any coordinate-based calculations:
+
+Do NOT use tables, array, aligned, cases, or any complex LaTeX environments.
+Do NOT use \[...\] unless I explicitly ask.
+Give everything in plain text LaTeX only.
+Define the points in this exact format:
+A=(170,70),\; X_A=170,\; Y_A=70
+
+B=(172,72),\; X_B=172,\; Y_B=72
+Then write the calculations step-by-step in the simplest possible form:
+Distance(A,B)=\sqrt{(X_A-X_B)^2+(Y_A-Y_B)^2}
+
+=\sqrt{(170-172)^2+(70-72)^2}
+
+=\sqrt{(-2)^2+(-2)^2}
+
+=\sqrt{4+4}
+
+=\sqrt{8}
+
+=2.83
+Avoid unnecessary LaTeX commands.
+Make the output easy to copy directly into my document without editing.
+Keep the formatting consistent in every response.
